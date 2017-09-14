@@ -1,0 +1,28 @@
+﻿<Window 
+       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" 
+       Title="WpfApplication1" Height="300" Width="215">
+    <Grid>
+        <Button Click="boton" x:Name="boton" Content="=" Margin="130,209,0,0" HorizontalAlignment="Left" Width="65" Height="34" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtNumeros" HorizontalAlignment="Left" Height="23" Margin="10,36,0,0" TextWrapping="Wrap" Text="" TextAlignment="Right" VerticalAlignment="Top" Width="185"/>
+        <Button x:Name="uno" Tag="1" Content="1" HorizontalAlignment="Left" Margin="10,77,0,0" VerticalAlignment="Top" Height="34" Click="Button_Click" Width="30"/>
+        <Button x:Name="dos" Tag="2" Content="2" HorizontalAlignment="Left" Margin="50,77,0,0" VerticalAlignment="Top" Width="30" Height="34" Click="Button_Click"/>
+        <Button x:Name="tres" Tag="3" Content="3" HorizontalAlignment="Left" Margin="90,77,0,0" VerticalAlignment="Top" Width="30" Height="34" Click="Button_Click"/>
+        <Button x:Name="cuatro" Tag="4" Content="4" HorizontalAlignment="Left" Margin="10,121,0,0" VerticalAlignment="Top" Width="30" Height="34" Click="Button_Click"/>
+        <Button x:Name="cinco" Tag="5" Content="5" HorizontalAlignment="Left" Margin="50,121,0,0" VerticalAlignment="Top" Width="30" Height="34" Click="Button_Click"/>
+        <Button x:Name="seis" Tag="6" Content="6" HorizontalAlignment="Left" Margin="90,121,0,0" VerticalAlignment="Top" Width="30" Height="34" Click="Button_Click"/>
+        <Button x:Name="siete" Tag="7" Content="7" HorizontalAlignment="Left" Margin="10,170,0,0" VerticalAlignment="Top" Width="30" Height="34" Click="Button_Click"/>
+        <Button x:Name="ocho" Tag="8" Content="8" HorizontalAlignment="Left" Margin="50,170,0,0" VerticalAlignment="Top" Width="30" Height="34" Click="Button_Click"/>
+        <Button x:Name="nueve" Tag="9" Content="9" HorizontalAlignment="Left" Margin="90,170,0,0" VerticalAlignment="Top" Width="30" Height="34" Click="Button_Click"/>
+        <Button x:Name="cero" Tag="0" Content="0" HorizontalAlignment="Left" Margin="10,209,0,0" VerticalAlignment="Top" Width="110" Height="34" Click="Button_Click"/>
+        <Button x:Name="sumar" Tag="+" Content="+" HorizontalAlignment="Left" Margin="130,77,0,0" VerticalAlignment="Top" Width="30" Height="34" Click="Operation_Click"/>
+        <Button x:Name="restar" Tag="-" Content="-" HorizontalAlignment="Left" Margin="165,77,0,0" VerticalAlignment="Top" Width="30" Height="34" Click="Operation_Click"/>
+        <Button x:Name="multiplicar" Tag="*" Content="X" HorizontalAlignment="Left" Margin="130,121,0,0" VerticalAlignment="Top" Width="30" Height="34" Click="Operation_Click"/>
+        <Button x:Name="dividir" Tag="/" Content="/" HorizontalAlignment="Left" Margin="165,121,0,0" VerticalAlignment="Top" Width="30" Height="34" Click="Operation_Click"/>
+        <Button x:Name="tantoPorCiento" Content="%" Margin="130,170,0,0" VerticalAlignment="Top" Height="34" Click="Button_Click" HorizontalAlignment="Left" Width="30"/>
+        <Button x:Name="limpiar" Content="C" HorizontalAlignment="Left" Margin="165,170,0,0" VerticalAlignment="Top" Width="30" Height="34" Click="Button_Click"/>
+
+
+    </Grid>
+</Window> 
