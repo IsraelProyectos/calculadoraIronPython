@@ -9,7 +9,9 @@ from System.Windows import Application, Window
 class MyWindow(Window):
     
     def __init__(self):
+        
         wpf.LoadComponent(self, 'WpfApplication1.xaml')
+       
         self.txtNumeros.Text = "0"
         self.firstNumber = None
         self.secondNumber = None

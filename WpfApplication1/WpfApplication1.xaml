@@ -4,7 +4,7 @@
        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" 
        Title="WpfApplication1" Height="300" Width="215">
     <Grid>
-        <Button Click="boton" x:Name="boton" Content="=" Margin="130,209,0,0" HorizontalAlignment="Left" Width="65" Height="34" VerticalAlignment="Top"/>
+        <Button x:Name="boton" Content="=" Margin="130,209,0,0" HorizontalAlignment="Left" Width="65" Height="34" VerticalAlignment="Top"/>
         <TextBox x:Name="txtNumeros" HorizontalAlignment="Left" Height="23" Margin="10,36,0,0" TextWrapping="Wrap" Text="" TextAlignment="Right" VerticalAlignment="Top" Width="185"/>
         <Button x:Name="uno" Tag="1" Content="1" HorizontalAlignment="Left" Margin="10,77,0,0" VerticalAlignment="Top" Height="34" Click="Button_Click" Width="30"/>
         <Button x:Name="dos" Tag="2" Content="2" HorizontalAlignment="Left" Margin="50,77,0,0" VerticalAlignment="Top" Width="30" Height="34" Click="Button_Click"/>
